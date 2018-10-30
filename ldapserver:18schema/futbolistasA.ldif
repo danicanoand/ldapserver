@@ -1,0 +1,9 @@
+dn: cn=loki,ou=productes,dc=edt,dc=org
+objectClass: xfutbolista
+cn: Loki hijo de Odin
+sn: Hijo de Odin
+xequip: Asgard
+xdorsal: 10
+xweb: www.loki.com
+xfoto: ///opt/docker/myphoto.jpg
+xlesionat: FALSE

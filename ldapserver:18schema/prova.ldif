@@ -1,0 +1,15 @@
+dn: cn=papito,ou=productes,dc=edt,dc=org
+objectClass: xfutbolista
+objectClass: posixAccount
+cn: papito
+sn: papito
+uid: papito
+uidNumber: 1
+gidNumber: 1
+homeDirectory: /home/papito
+xequip: papa
+xdorsal: 1
+xweb: www.papito.com
+xfoto: ///opt/docker/myphoto.jpg
+xlesionat: FALSE
+

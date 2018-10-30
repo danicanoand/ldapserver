@@ -1,0 +1,47 @@
+dn: ou=universitat,dc=edt,dc=org
+ou: universitat
+description: Container d'estudiants de la Rey Juan Carlos 
+objectclass: organizationalunit
+
+dn: uid=pablo,ou=universitat,dc=edt,dc=org
+objectClass: inetOrgPerson
+objectClass: xformacio
+objectClass: uidObject
+cn: Pablo Casado
+sn: Casado
+xmaster: Master en corrupcion
+xnummasters: 1
+xweb: www.pp.es
+xfoto: ///opt/docker/myphoto.jpg
+xlegal: FALSE
+
+dn: uid=cifuentes,ou=universitat,dc=edt,dc=org
+objectClass: inetOrgPerson
+objectClass: xformacio
+objectClass: uidObject
+cn: Cristina Cifuentes
+sn: Cifuentes
+xmaster: Master en Nivea
+uid: cifuentes
+
+dn: uid=rajoy,ou=universitat,dc=edt,dc=org
+objectClass: inetOrgPerson
+objectClass: xformacio
+objectClass: uidObject
+cn: Mariano Rajoy
+sn: Rajoy
+xmaster: Master en frases hechas
+xfoto: ///opt/docker/myphoto.jpg
+xlegal: TRUE
+
+dn: uid=albert,ou=universitat,dc=edt,dc=org
+objectClass: inetOrgPerson
+objectClass: xformacio
+objectClass: uidObject
+cn: Albert Rivera
+sn: Rivera
+xmaster: Master en COCAINE
+xnummasters: 1
+xweb: www.pp.es
+xweb: www.ciudadanos-cs.org
+xlegal: TRUE

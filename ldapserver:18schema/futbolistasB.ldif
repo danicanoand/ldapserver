@@ -1,0 +1,8 @@
+dn: xfitxa=666,ou=productes,dc=edt,dc=org
+objectClass: xfutbolista
+xfitxa: 666
+xequip: Asgard
+xdorsal: 10
+xweb: www.loki.com
+xfoto: ///opt/docker/myphoto.jpg
+xlesionat: FALSE

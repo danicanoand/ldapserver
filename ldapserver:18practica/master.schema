@@ -1,0 +1,36 @@
+# schema formacio academina:
+# masters,nummasters,web,foto,legal
+# @edt ASIX-M06 2018-2019
+# Objecte Auxiliary
+# -----------------------------------------------
+
+attributetype (1.1.2.1.1 NAME  'xmaster' 
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15{15}
+  SINGLE-VALUE ) 
+
+attributetype ( 1.1.2.1.2 NAME 'xnummasters'
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.27
+  SINGLE-VALUE )
+
+attributetype ( 1.1.2.1.3 NAME 'xweb'
+  DESC 'pagina web'
+  EQUALITY caseExactMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+
+attributetype ( 1.1.2.1.4 NAME 'xfoto'
+  DESC 'foto del individuo'
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.40 )
+
+attributetype ( 1.1.2.1.5 NAME 'xlegal'
+  DESC 'master legal TRUE'
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.7
+  SINGLE-VALUE )
+
+objectClass ( 1.1.2.2.1 NAME 'xformacio'
+  DESC 'masterinos'
+  SUP TOP
+  AUXILIARY 
+  MUST xmaster
+  MAY ( xnummasters $ xweb $ xfoto $ xlegal ) )

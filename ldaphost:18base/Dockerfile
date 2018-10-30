@@ -10,5 +10,6 @@ RUN mkdir /opt/docker/
 COPY * /opt/docker/
 RUN cp /opt/docker/ldap.conf /etc/openldap/ldap.conf
 WORKDIR /opt/docker/
+EXPOSE 389
 CMD ["/bin/bash"]
 

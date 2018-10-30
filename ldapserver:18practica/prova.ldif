@@ -1,0 +1,7 @@
+dn: uid=alberasdasdt,ou=universitat,dc=edt,dc=org
+objectClass: inetOrgPerson
+objectClass: xformacio
+objectClass: uidObject
+cn: Albert Rivera
+sn: Ribera
+xformacio: asdasd
