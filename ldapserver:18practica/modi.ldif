@@ -1,11 +1,9 @@
-dn: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
+dn: uid=Pere,ou=usuaris,dc=edt,dc=org
 changetype: modify
-add: mail
-mail: pereperepere
+add: objectClass
+objectClass: xformacio
+-
+add: xmaster
+xmaster: master de l'eduard
 
-
-dn: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
-changetype: modify
-add: mail
-mail: pere@pere
 
